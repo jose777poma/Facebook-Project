@@ -1,0 +1,69 @@
+/* Div mobile-header */
+.mobile-header {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+/* div left-section */
+.mobile-header .left-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.mobile-header .facebook-icon {
+  height: 40px;
+  cursor: pointer;
+}
+
+.mobile-header .search-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 235, 235);
+  padding: 12px;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+.mobile-header .search-icon {
+  height: 15px;
+}
+
+/* div right-section */
+.mobile-header .right-section {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.right-section .box-icon-container {
+  background-color: rgb(235, 235, 235);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+
+.box-icon-container img {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+}
+
+.user-profile-icon {
+  height: 38px;
+  width: 38px;
+  object-fit: contain;
+  border-radius: 50%;
+}

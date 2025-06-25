@@ -1,0 +1,76 @@
+.post-box {
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Row up */
+.post-box .row-up {
+  padding: 10px 20px;
+  padding-bottom: 0;
+}
+
+.row-up-inner {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 100%;
+  border-bottom: solid 1px rgb(206, 206, 206);
+  padding-bottom: 10px;
+}
+
+.row-up-inner img {
+  cursor: pointer;
+}
+
+.input-post {
+  flex: 1;
+  border: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 20px;
+  height: 35px;
+  cursor: pointer;
+  color: rgb(110, 110, 110);
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.input-post:hover {
+  background-color: rgb(206, 206, 206);
+}
+
+.input-post::placeholder {
+  color: rgb(110, 110, 110);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* Row down */
+.post-box .row-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  box-sizing: border-box;
+}
+
+.row-down .box-down {
+  display: flex;
+  align-items: center;
+  color: gray;
+  font-size: 15px;
+  column-gap: 8px;
+
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.row-down .box-down:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+.post-box .row-down img {
+  height: 25px;
+  aspect-ratio: 1/1;
+}
