@@ -20,7 +20,9 @@
     <!-- Header en modo mobile -->
     <div class="mobile-header">
       <div class="left-section">
-        <img class="facebook-icon" src="icons/facebook-icon.png" />
+        <a href="https://www.facebook.com/">
+          <img class="facebook-icon" src="icons/facebook-icon.png" />
+        </a>
         <div class="search-icon-box">
           <img class="search-icon" src="icons/search-icon.svg" />
         </div>
@@ -28,14 +30,20 @@
       <div class="right-section">
         <div class="box-icon-container">
           <img src="icons/grip-vertical-solid.svg" />
+          <div class="tooltip">Menu</div>
         </div>
         <div class="box-icon-container">
           <img src="icons/facebook-messenger-brands.svg" />
+          <div class="tooltip">Messenger</div>
         </div>
         <div class="box-icon-container">
           <img src="icons/bell-solid.svg" />
+          <div class="tooltip">Notificaciones</div>
         </div>
-        <img class="user-profile-icon" src="profile-pictures/user.png" />
+        <div class="box-cuenta">
+          <img class="user-profile-icon" src="profile-pictures/user.png" />
+          <div class="tooltip">Cuenta</div>
+        </div>
       </div>
     </div>
 
@@ -58,7 +66,7 @@
         <div class="box-down">
           <img src="icons/Foto-video-fb-icon.webp" />Foto/video
         </div>
-        <div class="box-down">
+        <div class="box-down hide-on-small">
           <img src="icons/sentimiento-fb-icon.webp" />Sentimiento/actividad
         </div>
       </div>
