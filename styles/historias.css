@@ -1,0 +1,99 @@
+.historias-row {
+  display: flex;
+  margin-top: 20px;
+  column-gap: 8px;
+  justify-content: center;
+}
+
+.add-history-box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.history-picture {
+  flex: 3;
+  object-fit: cover;
+  object-position: center;
+}
+
+.add-button {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 50%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.add-inner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.add-button img {
+  height: 30px;
+}
+
+.row-down {
+  flex: 1;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.historia-box,
+.add-history-box {
+  position: relative;
+  border-radius: 20px;
+  background-color: white;
+  height: 200px;
+  width: 115px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.history-picture {
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+
+  /* animacion suave */
+  transition: transform 0.3s ease;
+}
+
+.history-picture:hover {
+  transform: scale(1.1); /* anade zoom al hacer hover sobre las historias */
+}
+
+.historia-box .owner-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  box-shadow: 0 0 0 4px blue;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.owner {
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  font-size: 14px;
+  /* Agrega bordes negros al texto */
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
+    1px 1px 0 black;
+}
