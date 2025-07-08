@@ -1,6 +1,8 @@
 .post-box {
   background-color: white;
   border-radius: 10px;
+  margin: auto;
+  max-width: 490px;
 }
 
 /* Row up */
@@ -49,7 +51,7 @@
 .post-box .row-down {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 10px 40px;
   box-sizing: border-box;
 }

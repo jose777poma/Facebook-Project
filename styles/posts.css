@@ -1,0 +1,130 @@
+.posts-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.post {
+  border-radius: 10px;
+  background-color: white;
+  width: 470px;
+  box-sizing: border-box;
+  border: 1px solid #ced0d4;
+}
+
+.row-1-datos {
+  display: flex;
+  padding: 10px;
+}
+
+.row-1-datos .user-post-profile {
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.row1-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.row1-col2 .owner-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.row1-col2 .post-datos {
+  font-size: 12px;
+}
+
+.icons {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+.icons img {
+  height: 25px;
+}
+
+.row-2-description {
+  display: flex;
+  align-items: center;
+  padding: 6px 15px;
+}
+
+.multimedia-post img {
+  width: 100%;
+}
+
+.row-4-reactions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+}
+
+.row4-col1 {
+  display: flex;
+  align-items: center;
+}
+
+.like-icon {
+  height: 24px;
+  margin-left: 10px;
+  z-index: 2;
+}
+
+.love-icon {
+  height: 22px;
+  margin-left: -6px;
+  z-index: 1;
+}
+
+.row4-col1 div {
+  font-size: 15px;
+  color: gray;
+  margin-left: 6px;
+}
+
+.row4-col2 {
+  display: flex;
+  column-gap: 5px;
+  align-items: center;
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.compartir-icon {
+  height: 20px;
+}
+
+/* ROW 5 de ACTIONS */
+
+.row5-actions {
+  display: flex;
+  justify-content: center;
+  border-top: solid 1px rgb(194, 194, 194);
+  margin: 0 12px;
+}
+
+.action-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  color: gray;
+  font-size: 14px;
+  padding: 5px;
+  flex: 1;
+  cursor: pointer;
+}
+
+.action-icon {
+  height: 25px;
+}
