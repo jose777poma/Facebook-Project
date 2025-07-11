@@ -1,0 +1,116 @@
+.side-bar-right {
+  background-color: transparent;
+  position: fixed;
+  top: 55px;
+  bottom: 0;
+  right: 0;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Cumpleanos section */
+.cumpleanos-section {
+  padding: 15px 20px;
+  border-bottom: solid 1px gray;
+}
+
+.cumple-title {
+  font-size: 18px;
+  color: gray;
+  margin-bottom: 12px;
+}
+
+.cumple-main {
+  display: flex;
+  column-gap: 20px;
+}
+
+.cumple-icon {
+  height: 28px;
+}
+
+.cumple-description {
+  color: gray;
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.cumple-description strong {
+  color: black;
+}
+
+/* Contactos Section */
+.contactos-section {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.contactos-row1 {
+  color: gray;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  flex-shrink: 0;
+}
+
+.row1-col2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row1-col2 img {
+  height: 20px;
+  margin-right: 15px;
+}
+
+.contactos-list {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2px;
+  flex: 1;
+  overflow-y: hidden;
+}
+
+.contactos-list:hover {
+  overflow-y: auto;
+}
+
+.box-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 65px;
+  flex-shrink: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  cursor: pointer;
+}
+
+.box-contact:hover {
+  background-color: #ccc;
+}
+
+.profile-contact {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.name-contact {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+@media (max-width: 1200px) {
+  .side-bar-right {
+    display: none;
+  }
+}

@@ -1,0 +1,36 @@
+.contenedor-nivel-1 {
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  /* top/bottom/fixed ya dan el 100% de alto. */
+}
+
+.contenedor-nivel-2 {
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  /* ¡CLAVE! Si quieres que el scroll esté en nivel-3, nivel-2 debe limitar su desbordamiento */
+  overflow-y: hidden;
+  /* min-height: 0; también puede ser útil aquí si nivel-2 tiene mucho contenido antes de nivel-3 */
+}
+
+.contenedor-nivel-3 {
+  flex-grow: 1;
+  overflow-y: auto; /* Aquí es donde queremos el scroll */
+  min-height: 0; /* Esencial para flex items con overflow */
+}
+
+.box {
+  background-color: lightcoral;
+  height: 100px; /* La altura fija de cada caja */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
